@@ -1,0 +1,21 @@
+from termcolor import colored
+LINHA=8
+COLUNA=8
+PEAO_P=colored('♟','blue')
+BIS_P=colored('♝','blue')
+TOR_P=colored('♜','blue')
+CAV_P=colored('♞','blue')
+REI_P=colored('♚','blue')
+RAI_P=colored('♛','blue')
+PEAO_B=colored('♙','red')
+BIS_B=colored('♝','red')
+TOR_B=colored('♜','red')
+CAV_B=colored('♞','red')
+REI_B=colored('♚','red')
+RAI_B=colored('♛','red')
+TAB=colored('🏿','white')
+PECAS_P=[PEAO_P,TOR_P,BIS_P,CAV_P,REI_P,RAI_P]
+PECAS_B=[PEAO_B,TOR_B,BIS_B,CAV_B,REI_B,RAI_B]
+ROQUE_P=[PEAO_P,TOR_P,BIS_P,CAV_P,RAI_P]
+ROQUE_B=[PEAO_B,TOR_B,BIS_B,CAV_B,RAI_B]
+teste=[0,7]
