@@ -31,7 +31,6 @@ permite_E_TOR_B = True
 permite_D_TOR_B = True
 permite_E_TOR_P = True
 permite_D_TOR_P = True
-LETRA = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 BRANCAS = "branca"
 PRETAS = "preta"
 movimentos_rainha_rei = [
